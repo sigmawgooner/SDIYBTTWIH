@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sigma Gaming Menu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>Sigma Gaming Menu</header>
+
+<nav id="menu">
+  <button onclick="loadSite('https://newsigmatism.onrender.com')">Newsigmatism</button>
+  <button onclick="loadSite('https://sigmatism-ovq4.onrender.com')">Sigmatism OVQ4</button>
+  <button onclick="loadSite('https://rvrvrv.onrender.com')">RVRVRV</button>
+  <button onclick="loadSite('https://nepu.to')">Nepu.to</button>
+  <button onclick="loadSite('https://ftnf.onrender.com')">FTNF</button>
+</nav>
+
+<iframe id="display" src="about:blank"></iframe>
+
+<script>
+  const iframe = document.getElementById('display');
+  function loadSite(url) {
+    iframe.src = url;
+  }
+</script>
+
+</body>
+</html>
