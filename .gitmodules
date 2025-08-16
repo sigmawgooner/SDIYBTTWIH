@@ -4,3 +4,6 @@
 [submodule "SADSPONGE"]
 	path = SADSPONGE
 	url = https://github.com/jerebearishot/bbcunblocked.github.io
+[submodule "SWORDZONE"]
+	path = SWORDZONE
+	url = https://github.com/TacoGuy21/Sword-Games
